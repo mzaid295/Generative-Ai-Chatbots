@@ -24,7 +24,11 @@ The application allows users to interact with a chatbot powered by the Groq API.
 Set up your environment variables by creating a .env file and adding your Groq API key:
 GROQ_API_KEY=YOUR_API_KEY_HERE
 
-## Usage
+## App Screenshot
+![Chatbot](https://github.com/mzaid295/Generative-Ai-Chatbots/blob/main/GroqChatBot/Groq%20Chat%20App.png))
+
+
+## Code
 Run the application using the following command:
    ```bash
    streamlit run groq_chat_app.py
@@ -32,11 +36,8 @@ Run the application using the following command:
 Open your browser and navigate to the provided URL to access the chat application.
 
 Ask questions and interact with the chatbot.
-
-## Code
-
-   ```bash
-   import streamlit as st
+   
+import streamlit as st
 import os
 from groq import Groq
 import random
